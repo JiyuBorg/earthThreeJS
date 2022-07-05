@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>earthThreejs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- 自作cssインポート -->
+    <link rel="stylesheet" href="css/style.css">  
+  </head>
+  
+<body>
+    <!-- myCanvas内に地球の3Dオブジェを描画 -->
+    <canvas id="myCanvas"></canvas>
+
+    <!-- ヘッダー-->
+    <header>
+        <div class="logo-title">
+            <h2>宇宙</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>地球</h1>
+        <p>地球は青かった </p>
+        by ユーリイ・ガガーリン<br>
+        <button>go Space</button>
+    </div>
+
+    <section id = "2ndbox">
+        <h1>火星</h1>
+    </section>
+
+    <!-- Three.js CDNインポート -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" integrity="sha512-334uBDwY0iZ2TklV1OtDtBW9vp7jjP7SWRzT7Ehu1fdtPIjTpCwTSFb8HI/YBau9L1/kRBEOALrS229Kry4yFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 自作jsインポート -->
+    <script src="main.js"></script>
+</body>
+</html>
