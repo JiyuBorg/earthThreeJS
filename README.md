@@ -1,3 +1,3 @@
 # earthThreeJS
 
-Pages URL https://spadesmile.github.io/earthThreeJS/
+Pages URL https://jiyuborg.github.io/earthThreeJS/
